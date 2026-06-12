@@ -1,0 +1,83 @@
+export const initialAlerts = [
+  {
+    id: 1,
+    title: "Unusual Large Transfer",
+    customer: "Jessica Thompson",
+    location: "Moscow, RU",
+    value: "$12,000",
+    time: "2 mins ago",
+    severity: "HIGH",
+  },
+  {
+    id: 2,
+    title: "Identity Theft Risk",
+    customer: "James Wilson",
+    location: "New York, US",
+    value: "$4,500",
+    time: "15 mins ago",
+    severity: "HIGH",
+  },
+  {
+    id: 3,
+    title: "Card Not Present Fraud",
+    customer: "Robert Chen",
+    location: "San Francisco, US",
+    value: "$890",
+    time: "1 hour ago",
+    severity: "MEDIUM",
+  },
+  {
+    id: 4,
+    title: "Travel Rule Violation",
+    customer: "Linda Martinez",
+    location: "Toronto, CA",
+    value: "$2,100",
+    time: "3 hours ago",
+    severity: "MEDIUM",
+  },
+];
+
+export const simulatedAlerts = [
+  {
+    title: "Suspicious Wire Transfer",
+    customer: "Ivan Petrov",
+    location: "Moscow, RU",
+    value: "$9,500",
+    severity: "HIGH",
+  },
+  {
+    title: "Multiple Failed Logins",
+    customer: "Omar Hassan",
+    location: "Cairo, EG",
+    value: "$3,200",
+    severity: "HIGH",
+  },
+  {
+    title: "Foreign Transaction Alert",
+    customer: "Ana Costa",
+    location: "São Paulo, BR",
+    value: "$11,000",
+    severity: "MEDIUM",
+  },
+  {
+    title: "Unusual Location Login",
+    customer: "Yuki Tanaka",
+    location: "Tokyo, JP",
+    value: "$220",
+    severity: "LOW",
+  },
+  {
+    title: "Card Cloning Attempt",
+    customer: "Elena Popova",
+    location: "Berlin, DE",
+    value: "$7,300",
+    severity: "HIGH",
+  },
+  {
+    title: "Velocity Check Triggered",
+    customer: "Carlos Ruiz",
+    location: "Madrid, ES",
+    value: "$1,500",
+    severity: "LOW",
+  },
+];
